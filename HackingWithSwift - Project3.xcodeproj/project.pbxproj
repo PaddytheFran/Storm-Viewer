@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F9A113B21FDC937700B2A026 /* HackingWithSwift - Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackingWithSwift - Project1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A113B21FDC937700B2A026 /* HackingWithSwift - Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackingWithSwift - Project3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A113B51FDC937700B2A026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A113B71FDC937700B2A026 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9A113BA1FDC937700B2A026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		F9A113A91FDC937700B2A026 = {
 			isa = PBXGroup;
 			children = (
-				F9A113B41FDC937700B2A026 /* HackingWithSwift - Project1 */,
+				F9A113B41FDC937700B2A026 /* HackingWithSwift - Project3 */,
 				F9A113B31FDC937700B2A026 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		F9A113B31FDC937700B2A026 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9A113B21FDC937700B2A026 /* HackingWithSwift - Project1.app */,
+				F9A113B21FDC937700B2A026 /* HackingWithSwift - Project3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F9A113B41FDC937700B2A026 /* HackingWithSwift - Project1 */ = {
+		F9A113B41FDC937700B2A026 /* HackingWithSwift - Project3 */ = {
 			isa = PBXGroup;
 			children = (
 				F9A113B51FDC937700B2A026 /* AppDelegate.swift */,
@@ -85,8 +85,9 @@
 				F9A113C11FDC937700B2A026 /* Info.plist */,
 				F9A113C71FDC93AA00B2A026 /* Content */,
 			);
-			path = "HackingWithSwift - Project1";
+			path = "HackingWithSwift - Project3";
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		F9A113C71FDC93AA00B2A026 /* Content */ = {
 			isa = PBXGroup;
@@ -108,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F9A113B11FDC937700B2A026 /* HackingWithSwift - Project1 */ = {
+		F9A113B11FDC937700B2A026 /* HackingWithSwift - Project3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9A113C41FDC937700B2A026 /* Build configuration list for PBXNativeTarget "HackingWithSwift - Project1" */;
+			buildConfigurationList = F9A113C41FDC937700B2A026 /* Build configuration list for PBXNativeTarget "HackingWithSwift - Project3" */;
 			buildPhases = (
 				F9A113AE1FDC937700B2A026 /* Sources */,
 				F9A113AF1FDC937700B2A026 /* Frameworks */,
@@ -120,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = "HackingWithSwift - Project1";
+			name = "HackingWithSwift - Project3";
 			productName = "HackingWithSwift - Project1";
-			productReference = F9A113B21FDC937700B2A026 /* HackingWithSwift - Project1.app */;
+			productReference = F9A113B21FDC937700B2A026 /* HackingWithSwift - Project3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F9A113AD1FDC937700B2A026 /* Build configuration list for PBXProject "HackingWithSwift - Project1" */;
+			buildConfigurationList = F9A113AD1FDC937700B2A026 /* Build configuration list for PBXProject "HackingWithSwift - Project3" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -154,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9A113B11FDC937700B2A026 /* HackingWithSwift - Project1 */,
+				F9A113B11FDC937700B2A026 /* HackingWithSwift - Project3 */,
 			);
 		};
 /* End PBXProject section */
@@ -328,9 +329,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56DJGK62A4;
-				INFOPLIST_FILE = "HackingWithSwift - Project1/Info.plist";
+				INFOPLIST_FILE = "HackingWithSwift - Project3/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "HackingWithSwift - Project3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "PDFlanaganATX.HackingWithSwift---Project1";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDFlanaganATX.HackingWithSwift---Project3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,9 +345,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56DJGK62A4;
-				INFOPLIST_FILE = "HackingWithSwift - Project1/Info.plist";
+				INFOPLIST_FILE = "HackingWithSwift - Project3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "PDFlanaganATX.HackingWithSwift---Project1";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDFlanaganATX.HackingWithSwift---Project3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F9A113AD1FDC937700B2A026 /* Build configuration list for PBXProject "HackingWithSwift - Project1" */ = {
+		F9A113AD1FDC937700B2A026 /* Build configuration list for PBXProject "HackingWithSwift - Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9A113C21FDC937700B2A026 /* Debug */,
@@ -364,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9A113C41FDC937700B2A026 /* Build configuration list for PBXNativeTarget "HackingWithSwift - Project1" */ = {
+		F9A113C41FDC937700B2A026 /* Build configuration list for PBXNativeTarget "HackingWithSwift - Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9A113C51FDC937700B2A026 /* Debug */,
